@@ -1,0 +1,30 @@
+ul {
+    margin-left: calc(1.5vw + 1.5em);
+}
+
+.container-main_subtitulo {
+    width: calc(16vw + 16em);
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin-left: calc(0.4vw + 0.4em);
+        margin-right: calc(1.3vw + 1.3em);
+        font-size: calc(0.9vw + 0.7em);
+    }
+
+    #texto_main-apresentacao {
+        font-size: calc(0.8vw + 0.8em);
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .main_subtitulo {
+        margin-bottom: 0;
+        font-size: calc(1vw + 1em);
+    }
+
+    .nav-underline {
+        font-size: calc(0.8vw + 0.7em) !important;
+    }
+}

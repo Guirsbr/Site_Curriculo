@@ -6,54 +6,93 @@
     <title>Guilherme Emanuelli</title>
     <link rel="icon" href="img/icone_curriculo.png">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/header_e_footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/experiencia.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
-    <script src="js/script.js" defer></script>
 </head>
 <body>
     <div id="container-principal">
-        <div id="container-principal_flex">
-            <header>
-                <h1 class="texto-header" id="nome-header">Guilherme Silveira Emanuelli</h1>
-                <h2 class="texto-header">Graduando em Análise e Desenvolvimento de Sistemas</h2>
-                <h2 class="texto-header">@Unisinos</h2>
-                
-                <contact class="container-contatos_header"> 
-                    <img class="colunas-contatos_header imagens-contatos_header" src="img/icone_linkedin.png" alt="Icone Linkedin">
-                    <a class="colunas-contatos_header texto-contatos_header" href="https://www.linkedin.com/in/guilherme-silveira-emanuelli-20954b1b6/" target="_blank">Perfil Linkedin</a>
-                    <img class="colunas-contatos_header imagens-contatos_header" src="img/icone_celular.png" alt="Icone Celular">
-                    <p class="colunas-contatos_header texto-contatos_header">(51) 999789787</p>
-                    <img class="colunas-contatos_header imagens-contatos_header" src="img/icone_github.png" alt="Icone Github">
-                    <a class="colunas-contatos_header texto-contatos_header" href="https://github.com/Guirsbr" target="_blank">github.com/Guirsbr</a>
-                    <img class="colunas-contatos_header imagens-contatos_header" src="img/icone_email.png" alt="Icone Email" >
-                    <p class="colunas-contatos_header texto-contatos_header">gui.emanuelli@hotmail.com</p>
-                </contact>
-            </header>
+        <header>
+            <h1 class="texto-header" id="nome-header">Guilherme Silveira Emanuelli</h1>
+            <h2 class="texto-header">Graduando em Análise e Desenvolvimento de Sistemas</h2>
+            <h2 class="texto-header">@Unisinos</h2>
+            
+            <contact class="container-contatos_header"> 
+                <img class="colunas-contatos_header imagens-contatos_header" src="img/icone_linkedin.png" alt="Icone Linkedin">
+                <a class="colunas-contatos_header texto-contatos_header" href="https://www.linkedin.com/in/guilherme-silveira-emanuelli-20954b1b6/" target="_blank">Perfil Linkedin</a>
+                <img class="colunas-contatos_header imagens-contatos_header" src="img/icone_celular.png" alt="Icone Celular">
+                <p class="colunas-contatos_header texto-contatos_header">(51) 999789787</p>
+                <img class="colunas-contatos_header imagens-contatos_header" src="img/icone_github.png" alt="Icone Github">
+                <a class="colunas-contatos_header texto-contatos_header" href="https://github.com/Guirsbr" target="_blank">github.com/Guirsbr</a>
+                <img class="colunas-contatos_header imagens-contatos_header" src="img/icone_email.png" alt="Icone Email" >
+                <p class="colunas-contatos_header texto-contatos_header">gui.emanuelli@hotmail.com</p>
+                <script src="js/experiencia.js" defer></script>
+            </contact>
+        </header>
 
-            <main>
-                <ul class="nav nav-underline justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Página Principal</a>
+        <main>
+            <ul class="nav nav-underline justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Página Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="competencias.html">Competências</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projetos.html">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Experiências</a>
+                </li>
+            </ul>
+
+            <div class="container-main_titulo">
+                <h1 id="texto_main-apresentacao">Experiências Profissionais</p>
+            </div>
+
+            <section class="container-main_conteudo">
+                <div class="container-main_subtitulo">
+                    <h2 class="main_subtitulo">Funcionário Geral - Mercado Emanuelli</h2>
+                </div>
+                <p id="texto-Data_EmpregoAtual">10.2021 - **.****</p>
+                <ul>
+                    <li>
+                        <p>Fazer notas.</p>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="competencias.html">Competências</a>
+                    <li>
+                        <p>Operar e atender no caixa.</p>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projetos.html">Projetos</a>
+                    <li>
+                        <p>Repor mercadoria.</p>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Experiências</a>
+                    <li>
+                        <p>Entre outros.</p>
                     </li>
                 </ul>
+            </section>
 
-                
-            </main>
+            <section class="container-main_conteudo">
+                <div class="container-main_subtitulo">
+                    <h2 class="main_subtitulo">Estágio Técnico em Química - Sitel</h2>
+                </div>
+                <p>04.2021 - 10.2021</p>
+                <ul>
+                    <li>
+                        <p>Coleta de amostras.</p>
+                    </li>
+                    <li>
+                        <p>Análises químicas de amostra.</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
 
-            <footer>
-                <p class="texto-footer">&copy; 2024 Guilherme Silveira Emanuelli. Todos os direitos reservados.</p>
-            </footer>
-        </div>
+        <footer>
+            <p class="texto-footer">&copy; 2024 Guilherme Silveira Emanuelli. Todos os direitos reservados.</p>
+        </footer>
     </div>
 </body>
 </html>
