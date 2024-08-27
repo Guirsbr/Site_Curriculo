@@ -1,3 +1,5 @@
+
+// Coloca a data atual no texto do emprego atual no HTML
 const date = new Date();
 
 let textoData = document.querySelector('#texto-Data_EmpregoAtual');
