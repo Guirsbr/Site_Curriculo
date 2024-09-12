@@ -61,6 +61,10 @@ p {
     color: #1B1D2D !important;
 }
 
+#index-pages {
+    font-size: calc(0.9vw + 8px);
+}
+
 #container-principal {
     background-color: #f8f8f8;
     height: auto;

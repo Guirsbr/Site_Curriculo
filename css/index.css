@@ -15,15 +15,15 @@
     main {
         margin-left: calc(1vw + 1em);
         margin-right: calc(1vw + 1em);
-        font-size: calc(0.8vw + 0.7em);
+        font-size: calc(0.8vw + 0.8em);
     }
 
     .main_subtitulo {
         margin-bottom: 0;
-        font-size: calc(1vw + 1em);
+        font-size: calc(1.1vw + 1.1em);
     }
 
     .nav-underline {
-        font-size: calc(0.7vw + 0.7em) !important;
+        font-size: calc(0.8vw + 0.8em) !important;
     }
 }
