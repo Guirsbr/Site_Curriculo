@@ -1,0 +1,109 @@
+
+/* CSS usado na responsividade a telas menores do site */
+
+@media only screen and (max-width: 800px) {
+
+  .header_address-container {
+    margin: 1em auto;
+    width: 90%;
+  }
+
+  #nav-container {
+    font-size: 80%;
+  }
+
+  .main_project-container {
+    flex-direction: column;
+  }
+
+  .main_project_description-container,
+  .main_project_aside {
+    width: 100%;
+  }
+
+  .main_project_aside figure img {
+    max-height: 70em;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+
+  .header_text-container h1,
+  .header_text-container h2 { 
+    font-size: 100%; 
+  }
+
+  .header_text-container h1 { 
+    font-size: 160%; 
+  }
+
+  .header_address-container {
+    font-size: 85%;
+  }
+
+
+  #nav_button-container {
+    display: flex;
+  }
+
+  #nav-container {
+    width: 100%;
+    display: none;
+  }
+
+  #nav-container ul {
+    height: 13em;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0px;
+  }
+
+  #nav-container li {
+    background-color: #a5a5a5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px #1B1D2D;
+  }
+
+  #nav_item-last {
+    border-bottom: solid 1px #1B1D2D;
+  }
+
+
+  .main-container {
+    margin-top: 4vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .main-container p {
+    margin: 0.5em 1em;
+    font-size: 95%;
+  }
+
+  .main_subtitle-container {
+    padding: 0em 1em;
+    margin: 1em 0;
+    font-size: 100%;
+  }
+
+  .header_address-container {
+    font-size: 70%;
+  }
+
+
+  .main_project_aside_text p {
+    font-size: 80%;
+    margin: 0px;
+  }
+
+
+  .footer-container {
+    height: 4em;
+    font-size: 55%;
+  }
+}

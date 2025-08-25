@@ -1,62 +1,80 @@
-header {
-    background-color: #1B1D2D;
-    color: #f8f8f8;
-    width: 100%;
-    height: calc(10vw + 10em);
-    padding-right: calc(0.6vw + 0.6em);
+
+/* CSS usado no cabeçalho do site */
+
+.header-container {
+  min-height: 32vh;
+  width: 100%;
+  background-color: #1B1D2D;
+  box-shadow: 0px 4px 5px -5px #1B1D2D;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.texto-header {
-    padding-left: calc(0.6vw + 0.6em);
-    font-size: calc(0.8vw + 0.8em);
+.header_text-container {
+  margin: 1em auto;
+  width: 90%;
 }
 
-.container-contatos_header{
-    display: flex;
-    float: right;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: calc(17vw + 17em);
-    align-items: center;
-    font-size: calc(0.5vw + 0.5em);
+.header_text-container h1,
+.header_text-container h2 {
+  font-size: 120%;
 }
 
-.colunas-contatos_header {
-    align-self: center;
-    margin: 0;
-    color: #f8f8f8;
-    margin-top: calc(0.5vw + 0.5em);
+.header_text-container h1 {
+  margin-bottom: 0.3em;
+  font-size: 250%;
 }
 
-.texto-contatos_header {
-    height: calc(0.5vw + 0.5em);
-    width: calc(7.5vw + 7.5em);
-    margin-left: calc(0.4vw + 0.4em);
+
+.header_address-container {
+  display: grid;
+  grid-template-columns: 1em 1fr 1em 1fr;
+  grid-template-rows: 5vh 5vh;
+  margin-left: 50%;
+  margin-right: 5%;
 }
 
-.imagens-contatos_header {
-    height: calc(0.5vw + 0.5em);
-    width: calc(0.5vw + 0.5em);
-    margin-top: calc(0.9vw + 0.9em);
+.header_address-container div {
+  margin: 0.25em 0;
 }
 
-#nome-header {
-    padding-top: calc(1vw + 1em);
-    padding-left: calc(0.6vw + 0.6em);
-    padding-bottom: calc(0.4vw + 0.4em);
-    font-size: calc(1.1vw + 1.1em);
-    font-weight: bold;
-    color: white;
+.header_address-container a,
+.header_address-container p {
+  padding: 0 0.5em;
+  font-size: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-    .container-contatos_header {
-        width: calc(23vw + 23em);
-        float: none;
-        margin: 0 auto;
-    }
-    
-    .texto-contatos_header {
-        width: calc(10.5vw + 10.5em);
-    }
+#header_address-image-linkedin {
+  background-image: url(../img/icone_linkedin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
+#header_address-image-phone {
+  background-image: url(../img/icone_phone.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#header_address-image-github {
+  background-image: url(../img/icone_github.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#header_address-image-email {
+  background-image: url(../img/icone_email.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*  
+.header_address-container {
+  display: grid;
+  grid-template-columns: 1em 1fr 1em 1fr;
+  grid-template-rows: auto auto;
+  margin: 1em auto;    centraliza em qualquer tela
+  width: 90%;          se adapta à tela 
+} 
+*/

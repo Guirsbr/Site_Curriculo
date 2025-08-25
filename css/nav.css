@@ -1,0 +1,52 @@
+
+/* CSS usado na barra de navegação do site */
+
+#nav_button-container {
+  display: none;
+  height: 2.3em;
+  width: 100%;
+  background-color: #808080;
+  border: solid 1px #808080;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_button-container i {
+  color: #1B1D2D;
+}
+
+
+#nav-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  height: 12vh;
+  padding: 0em 2em;
+}
+
+#nav-container li {
+  list-style-type: none;
+  font-size: 150%;
+}
+
+#nav-container a.active {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 620px) {
+
+  #nav-container a {
+    padding-bottom: 1.5vh;
+    transition: 50ms;
+  }
+
+  #nav-container a:hover {
+    border-bottom: 2px solid #1B1D2D;
+  }
+
+  #nav-container a.active {
+    border-bottom: 2px solid #1B1D2D;
+    font-weight: 700;
+  }
+}

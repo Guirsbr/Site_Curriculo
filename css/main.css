@@ -1,98 +1,140 @@
-body {
-    background-image: url("../img/imagem_de_fundo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;  
+
+/* CSS usado na parte principal do site */
+
+.main-container {
+  min-height: 52vh;
+  width: 92%;
 }
 
-main {
-    color: #1B1D2D;
-    margin-top: calc(0.6vw + 0.6em);
-    font-size: calc(0.6vw + 0.6em);
-    margin-right: calc(0.6vw + 0.6em);
+.main_subtitle-container {
+  display: inline-block;
+  background-color: #a5a5a5;
+  padding: 0.1em 1.5em;
+  margin: 1em 0;
+  font-size: 110%;
 }
 
-a {
-    text-decoration: none !important;
+.main_article {
+  margin-bottom: 3em;
 }
 
-p {
-    margin-left: calc(1.5vw + 1.5em);
+.main-container p {
+  margin: 0.7em 2em;
+  font-size: 100%;
 }
 
-.container-main_conteudo {
-    margin-left: calc(1vw + 1em);
-    margin-right: calc(1vw + 1em);
-    margin-top: calc(1.5vw + 1.5em);
+.main-container li {
+  margin: 0.7em 3.3em;
 }
 
-.container-main_titulo {
-    background-color: #a5a5a5;
-    margin: auto;
-    width: 80%;
-    padding-top: calc(0.3vw + 0.3em);
-    padding-right: calc(0.7vw + 0.7em);
-    padding-bottom: calc(0.3vw + 0.3em);
-    padding-left: calc(0.7vw + 0.7em);
-    text-align: center;
-    margin-top: calc(1.5vw + 1.5em);
+
+/* CSS usado somente na tela de competências do site */
+
+.main_image-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 0.5em;
 }
 
-.container-main_subtitulo {
-    background-color: #BBBBBB;
-    width: calc(8.5vw + 8.5em);
-    padding-top: calc(0.3vw + 0.3em);
-    padding-right: calc(0.5vw + 0.5em);
-    padding-bottom: calc(0.3vw + 0.3em);
-    padding-left: calc(0.5vw + 0.5em);
-    text-align: center;
-    margin-bottom: calc(0.5vw + 0.5em);
+.main_image-figure {
+  width: 94%;
+  margin: 2em 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.main_subtitulo {
-    margin-bottom: 0;
-    font-size: calc(0.8vw + 0.8em);
+.main_image_img-container {
+  width: 100%;
+  padding: 2em 0;
+  border-top: 1px dotted #a5a5a5;
+  border-bottom: 1px dotted #a5a5a5;
+  display: flex;
+  justify-content: space-around;
 }
 
-.nav {
-    margin-right: calc(0.9vw + 0.9em) !important;
+.main_image-figure img {
+  width: 40%;
 }
 
-.nav-underline .nav-item .nav-link {
-    color: #1B1D2D !important;
+.main_image-figure figcaption {
+  margin-top: 1em;
+  font-size: 70%;
 }
 
-#index-pages {
-    font-size: calc(0.9vw + 8px);
+
+/* CSS usado somente na tela de projetos do site */
+
+.main_project-container {
+  display: flex;
 }
 
-#container-principal {
-    background-color: #f8f8f8;
-    height: auto;
-    width: 70vw;
-    position: relative;
-    left: 15%;
-    right: 15%;
-    padding: 0px;
+.main_project_description-container {
+  width: 40%;
 }
 
-#texto_main-apresentacao {
-    font-size: calc(0.65vw + 0.65em);
-    font-weight: 600;
-    margin: 0;
+.main_project_aside {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #1B1D2D;
+  border-radius: 5px;
+  margin-top: 1em;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1100px) {
-    #container-principal {
-        width: 100vw;
-        left: 0%;
-        right: 0%;
-    }             
+.main_project_aside_text {
+  margin-top: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
-@media only screen and (max-width: 768px) {
-    #container-principal {
-        width: 100vw;
-        left: 0%;
-        right: 0%;
-    }
+.main_project_aside_text p {
+  margin: 0px;
+  padding: 0 1em 0.4em;
+}
+
+.main_project_aside_text p:hover {
+  cursor: pointer;
+}
+
+.main_project_aside_text-active {
+  border-bottom: 2px solid #1B1D2D;
+  font-weight: 700;
+}
+
+.main_project_aside figure {
+  font-size: 70%;
+  text-align: center;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main_project_aside figure div {
+  padding: 1em 0;
+  margin: 0 5% 1em;
+  border-top: 1px dotted #a5a5a5;
+  border-bottom: 1px dotted #a5a5a5;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.main_project_aside figure img {
+  max-height: 30em;
+}
+
+
+/* CSS usado somente na tela de experiencias do site */
+
+#main_experience-date-1,
+#main_experience-date-2,
+#main_experience-date-3 {
+  font-size: 110%;
+  font-weight: 300;
+  margin-bottom: 1.7em;
 }

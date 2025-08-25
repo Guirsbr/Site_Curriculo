@@ -1,0 +1,23 @@
+
+/* CSS usado no corpo do site */
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e4ecec 0%, #545c7c 98%);
+  display: flex;
+  justify-content: center;
+  color: #1B1D2D;
+}
+
+.body-container {
+  min-height: 100vh;
+  max-width: 1200px;
+  width: 100%;  
+  margin: 0 auto; 
+  background-color: white;
+  box-shadow: 0 0 10px 1px #1B1D2D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
