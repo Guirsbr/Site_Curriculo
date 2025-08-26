@@ -1,5 +1,5 @@
 
-/* CSS usado na responsividade a telas menores do site */
+/*--- CSS usado na responsividade a telas menores do site ---*/
 
 @media only screen and (max-width: 800px) {
 
@@ -12,6 +12,8 @@
     font-size: 80%;
   }
 
+
+  /* CSS da tela projetos */
   .main_project-container {
     flex-direction: column;
   }
@@ -21,9 +23,10 @@
     width: 100%;
   }
 
-  .main_project_aside figure img {
+  .main_project_aside_figure img {
     max-height: 70em;
   }
+  /* CSS da tela projetos */
 }
 
 @media only screen and (max-width: 620px) {
@@ -42,6 +45,7 @@
   }
 
 
+  /* CSS usado no botão e na barra de navegação para telas menores */
   #nav_button-container {
     display: flex;
   }
@@ -72,10 +76,10 @@
     border-bottom: solid 1px #1B1D2D;
   }
 
-
   .main-container {
     margin-top: 4vh;
   }
+  /* CSS usado no botão e na barra de navegação para telas menores */
 }
 
 @media only screen and (max-width: 480px) {
@@ -95,15 +99,17 @@
     font-size: 70%;
   }
 
-
-  .main_project_aside_text p {
-    font-size: 80%;
-    margin: 0px;
-  }
-
-
+  
   .footer-container {
     height: 4em;
     font-size: 55%;
   }
+
+
+  /* CSS da tela projetos */
+  .main_project_aside_text p {
+    font-size: 80%;
+    margin: 0px;
+  }
+  /* CSS da tela projetos */
 }

@@ -1,6 +1,7 @@
 
-/* CSS usado na barra de navegação do site */
+/*--- CSS usado nos itens de navegação do site ---*/
 
+/* CSS usado no botão para telas menores */
 #nav_button-container {
   display: none;
   height: 2.3em;
@@ -14,8 +15,9 @@
 #nav_button-container i {
   color: #1B1D2D;
 }
+/* CSS usado no botão para telas menores */
 
-
+/* CSS usado na barra de navegação */
 #nav-container ul {
   display: flex;
   align-items: center;
@@ -50,3 +52,4 @@
     font-weight: 700;
   }
 }
+/* CSS usado na barra de navegação */

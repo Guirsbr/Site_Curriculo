@@ -1,5 +1,5 @@
 
-/* CSS usado na parte principal do site */
+/*--- CSS usado na parte principal do site ---*/
 
 .main-container {
   min-height: 52vh;
@@ -28,7 +28,8 @@
 }
 
 
-/* CSS usado somente na tela de competências do site */
+
+/*--- CSS usado somente na imagem da tela de competências do site ---*/
 
 .main_image-container {
   display: flex;
@@ -64,8 +65,10 @@
 }
 
 
-/* CSS usado somente na tela de projetos do site */
 
+/*--- CSS usado somente na tela de projetos do site ---*/
+
+/* CSS usado nos coontainers */
 .main_project-container {
   display: flex;
 }
@@ -83,7 +86,9 @@
   border-radius: 5px;
   margin-top: 1em;
 }
+/* CSS usado nos coontainers */
 
+/* CSS usado nos botões das imagens */
 .main_project_aside_text {
   margin-top: 1em;
   width: 100%;
@@ -104,8 +109,10 @@
   border-bottom: 2px solid #1B1D2D;
   font-weight: 700;
 }
+/* CSS usado nos botões das imagens */
 
-.main_project_aside figure {
+/* CSS usado nas imagens */
+.main_project_aside_figure {
   font-size: 70%;
   text-align: center;
   margin-bottom: 1em;
@@ -114,7 +121,7 @@
   width: 100%;
 }
 
-.main_project_aside figure div {
+.main_project_aside_figure div {
   padding: 1em 0;
   margin: 0 5% 1em;
   border-top: 1px dotted #a5a5a5;
@@ -124,12 +131,14 @@
   justify-content: center;
 }
 
-.main_project_aside figure img {
+.main_project_aside_figure img {
   max-height: 30em;
 }
+/* CSS usado nas imagens */
 
 
-/* CSS usado somente na tela de experiencias do site */
+
+/*--- CSS usado somente nas datas da tela de experiencias do site ---*/
 
 #main_experience-date-1,
 #main_experience-date-2,

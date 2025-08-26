@@ -1,6 +1,7 @@
 
-/* CSS usado no cabeçalho do site */
+/*--- CSS usado no cabeçalho do site ---*/
 
+/* CSS usado nos titulos */
 .header-container {
   min-height: 32vh;
   width: 100%;
@@ -26,8 +27,10 @@
   margin-bottom: 0.3em;
   font-size: 250%;
 }
+/* CSS usado nos titulos */
 
 
+/* CSS usado nas informações de contato */
 .header_address-container {
   display: grid;
   grid-template-columns: 1em 1fr 1em 1fr;
@@ -69,12 +72,4 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-/*  
-.header_address-container {
-  display: grid;
-  grid-template-columns: 1em 1fr 1em 1fr;
-  grid-template-rows: auto auto;
-  margin: 1em auto;    centraliza em qualquer tela
-  width: 90%;          se adapta à tela 
-} 
-*/
+/* CSS usado nas informações de contato */
